@@ -1,0 +1,103 @@
+body {
+  background-image: url(background/background.png);
+  background-size: cover;
+  width: 100dvw;
+  height: 100dvh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.e-mail,
+.password {
+  background-color: transparent;
+  border: none;
+  border-bottom: white 1px solid;
+  margin: 0.5em;
+  color: white;
+  padding: 12px 6px;
+}
+
+.btn_submit {
+  background: red;
+  box-shadow: 0px 0px 0px transparent;
+  border: 0px solid transparent;
+  text-shadow: 0px 0px 0px transparent;
+  padding: 0.6em;
+  border-radius: 0.2em;
+  margin: 1em 0em 0em 0em;
+  color: white;
+}
+
+.poppins-thin {
+  font-family: "Poppins", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+.login_title {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.principal_title {
+  font-size: 2.5em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+
+.sub_title {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+
+.forms_style {
+  display: flex;
+  flex-direction: column;
+}
+
+.login_page {
+  padding: 3em;
+  border-radius: 24px;
+  background-image: url(background/background-blurred.png);
+  background-repeat: no-repeat;
+}
+
+.link_forgot {
+  color: white;
+}
+
+.forgot_password {
+  margin-top: 2em;
+}
+
+.eye-opened,
+eye-hidden {
+  filter: invert(1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+}
+
+.password_align {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.password {
+  width: 19em;
+}
